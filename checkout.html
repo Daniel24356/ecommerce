@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>See more</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/product.css">
+    <link rel="stylesheet" href="style/checkout-header.css">
+    <link rel="stylesheet" href="style/checkout.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <div class="checkout-header">
+      <div class="header-content">
+        <div class="checkout-header-left-section">
+          <a href="index.html">
+            <img class="amazon-logo" src="images/amazon-logo.png">
+            <img class="amazon-mobile-logo" src="images/amazon-mobile-logo.png">
+          </a>
+        </div>
+
+        <div class="checkout-header-middle-section">
+          Checkout (<a class="return-to-home-link"
+            href="amazon.html">3 items</a>)
+        </div>
+
+        <div class="checkout-header-right-section">
+          <img src="images/icons/checkout-lock-icon.png">
+        </div>
+      </div>
+    </div>
+ 
+    <div class="main">
+      <h1 class="review-name">Review your Cart</h1>
+      <!-- <h1 class="review-name">Review your Cart</h1>
+      <div class="flex-cont">
+      <div class="main-cont">
+      <p class="delivery-date">Delivery date: Monday, May 25</p>
+      <div class="flex-cont">
+        <div class="cart-cont">
+          <div>
+            <img class="cart-img" src="img/jordan.png" alt="">
+          </div>
+          <div>
+            <p class="cart-name">Air Jordan Six</p>
+            <div class="price-cont">
+              <p class="quantity"><strong>Quantity:</strong> 1</p>
+              <p class="cart-price"><strong>Price:</strong> $100.9</p>
+             </div>
+            </div>
+            <div>
+              <p class="ref-num">ref:169928</p>
+              <div class="check-cont">
+                <i id="check" class='bx bx-checkbox-checked'></i>
+                <p class="collect">click & collect</p>
+              </div>
+          <div class="check-cont">
+            <i  class='bx bx-checkbox-checked' id="check"></i>
+            <p class="collect">Home Delivery</p>
+          </div>
+            </div>
+            
+          
+          <div class="close">
+            <i class='bx bx-x'></i>
+          </div>
+  
+        </div>
+        </div>
+      </div>
+      </div> -->
+    </div>
+     
+     <div class="empty">
+      <i class='bx bx-cart-alt' id="carting"></i>
+      <p class="empty-text">Note: there is currently <strong>nothing</strong> in your cart</p>
+      <p class="empty-text"> <strong>Add</strong> products first  to see your cart</p>
+     </div>
+
+ <script type="module" src="script/checkout.js"></script>
+</body>
+</html>

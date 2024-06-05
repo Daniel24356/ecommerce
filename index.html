@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Project</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="style/amazon-header.css">
+    <link rel="stylesheet" href="style/amazon.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/product.css">
+    <link rel="stylesheet" href="style/see-more.css">
+  </head>
+  <body>
+    <div class="amazon-header">
+      <div class="amazon-header-left-section">
+        <a href="index.html" class="header-link">
+          <img class="amazon-logo"
+            src="images/amazon-logo-white.png">
+          <img class="amazon-mobile-logo"
+            src="images/amazon-mobile-logo-white.png">
+        </a>
+      </div>
+
+      <div class="amazon-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
+      </div>
+
+      <div class="amazon-header-right-section">
+        <a class="orders-link header-link" href="admin.html">
+          <span class="returns-text">Admin</span>
+          <span class="orders-text">Dashboard</span>
+        </a>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity js-cart-quantity">0</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="main">
+      <div class="product-grid ">
+          <!-- <div class="product-cont">
+            <img class="product-img" src="img/jordan.png" alt="">
+             <p class="product-name">Air Jordan Six</p>
+             <div class="rating-cont">
+              <img class="rating-img" src="images/ratings/rating-45.png" alt="">
+              <p class="rating-name">4.5</p>
+             </div>
+             <p class="price-name">$100.9</p>
+             <a href="#container">
+              <p class="more-text">see more</p>
+             </a>
+          </div>
+         
+          <div class="product-cont"> 
+            <img class="product-img" src="img/air.png" alt="">
+             <p class="product-name"> Nike Air Max</p>
+             <div class="rating-cont">
+              <img class="rating-img" src="images/ratings/rating-50.png" alt="">
+              <p class="rating-name">5</p>
+             </div>
+             <p class="price-name">$212.3</p>
+             <a href="#container">
+              <p class="more-text">see more</p>
+             </a>
+          </div>
+
+          <div class="product-cont"> 
+            <img class="product-img" src="img/blazer.png" alt="">
+             <p class="product-name">Blazer Max</p>
+             <div class="rating-cont">
+              <img class="rating-img" src="images/ratings/rating-40.png" alt="">
+              <p class="rating-name">4</p>
+             </div>
+             <p class="price-name">$83.4</p>
+             <a href="#container">
+              <p class="more-text">see more</p>
+             </a>
+          </div>
+
+          <div class="product-cont">
+            <img class="product-img" src="img/crater.png" alt="">
+             <p class="product-name">Crater Limited</p>
+             <div class="rating-cont">
+              <img class="rating-img" src="images/ratings/rating-35.png" alt="">
+              <p class="rating-name">3.5</p>
+             </div>
+             <p class="price-name">$110.7</p>
+             <a href="#container">
+              <p class="more-text">see more</p>
+             </a>
+          </div>
+
+          <div class="product-cont"> 
+            <img class="product-img" src="img/hippie.png" alt="">
+             <p class="product-name">Hippie Sports</p>
+             <div class="rating-cont">
+              <img class="rating-img" src="images/ratings/rating-30.png" alt="">
+              <p class="rating-name">3</p>
+             </div>
+             <p class="price-name">$48.3</p>
+             <a href="#container">
+              <p class="more-text">see more</p>
+             </a>
+          </div> -->  
+
+      </div>
+
+      <div id="container" class="container">
+        <div>
+            <img class="container-img" src="img/jordan.png" alt="">
+        </div>
+        <div>
+            <h1 class="shoe-title">AIR JORDAN</h1>
+            <p class="shoe-price">$199</p>
+            <p class="shoe-use">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque libero provident voluptas doloremque ab reiciendis ea ducimus quasi error?</p>
+             <div class="color-cont">
+                <div class="color" id="first"></div>
+                <div class="color" id="second"></div>
+             </div>
+             <div class="size-container">
+                <div class="size">40</div>
+                <div class="size">41</div>
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+                <div class="size">45</div>
+                <div class="size">46</div>
+             </div>
+             <button class="cart-btn">Add to cart</button>
+        </div>
+    </div>
+      
+
+    </div>
+
+
+   <script type="module" src="script/product.js"></script>
+  </body>
+</html>

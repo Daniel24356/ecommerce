@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.container-img{
+    width: 580px;
+    height: 580px;
+}
+.shoe-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.shoe-price{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.shoe-use{
+    color: rgb(128, 128, 128);
+    width: 510px;
+    margin-bottom: 13px;
+}
+#first{
+    width: 36px;
+    height: 32px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#second{
+    width: 36px;
+    height: 32px;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.color-cont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 19px;
+}
+.size{
+    width: 60px;
+    height: 33px;
+    border: 1px solid rgb(71, 69, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.size-container{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 20px;
+}
+.cart-btn{
+    width:350px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+}

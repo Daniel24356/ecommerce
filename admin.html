@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style/admin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+</head>
+<body>
+
+    <nav>
+
+            <div class="input-box">
+                <i id="search" class='bx bx-search'></i>
+                <input class="search" type="search" placeholder="search">
+            </div>
+       
+            <div class="icons">   
+               <div>
+                <i id="bell" class='bx bx-bell'></i>
+               </div>
+               <div class="menu">
+                <i id="menu" class='bx bx-menu'></i>
+               </div>
+            </div>
+     
+       <!-- <i class='bx bx-x'></i> -->
+    </nav>
+
+    <aside class="sidebar">
+        <div class="sidebar-header">
+          <img src="images/amazon-logo.png" class="logo" alt="">
+          <button class="close-btn">
+            <i class='bx bx-x'></i>
+          </button>
+        </div>
+        <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="projects.html">projects</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+      </aside>
+
+    <div class="form-center">
+        <div class="form-size">
+        <h1>Admin Dashboard</h1>
+        <form id="employeeForm">
+            <div>
+            <label for="productName">Product Name:</label>
+            <input type="text" name="productName" id="productName" >
+        </div>
+        <div>
+          <label for="color1">Color1:</label>
+          <input type="text" name="color1" id="color1">
+      </div>
+        <div>
+            <label for="productImage1">Product Image1:</label>
+            <input type="text" name="productImage1" id="productImage1">
+        </div>
+        <div>
+          <label for="color2">Color2:</label>
+          <input type="text" name="color2" id="color2">
+       </div>
+       <div>
+        <label for="productImage2">Product Image2:</label>
+        <input type="text" name="productImage2" id="productImage2">
+       </div>
+        <div>
+            <label for="starImage">Star Image:</label>
+            <input type="text" name="starImage" id="starImage">
+        </div>
+        <div>
+            <label for="starText">Star Text:</label>
+            <input type="text" name="starText" id="starText">
+        </div>
+        <div>
+            <label for="productPrice">Product Price:</label>
+            <input type="text" name="productPrice" id="productPrice">
+        </div>
+            <button class="add-btn" type="submit">Add Product</button>
+        </form>
+    </div>
+    </div>
+         
+         
+         <div class="product-container">
+          
+          <!-- <div class="inner-cont">
+            <img class="shoe-img" src="img/air.png" alt=""> 
+          </div>
+          <div class="all">
+            <div class="inner-cont">
+              <p> <strong>Nike Air Max</strong></p>
+              <div class="star-cont">
+                <img class="star-img" src="images/ratings/rating-50.png" alt="">
+                <p>5</p>
+              </div>
+             </div>
+             <div class="inner-cont">
+              <p> <strong>Price:</strong></p>
+              <p>$20</p>
+             </div>
+             <div class="inner-conts">
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+             </div>
+          </div> -->
+         
+         </div>
+   
+
+
+
+    <script type="module" src="script/admin.js"></script>
+</body>
+</html>

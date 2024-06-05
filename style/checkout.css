@@ -1,0 +1,102 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .main{
+    margin-top: 100px;
+    margin-left: 128px;
+ }
+ .main-cont{
+   width: 680px;
+   height: 260px;
+   position: relative;
+   border: 1px solid rgb(148, 146, 146);
+   padding: 20px 20px;
+   border-radius: 20px;
+ }
+ .delivery-date{
+   color: crimson;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 7px;
+ }
+ .review-name{
+   font-size: 30px;
+   margin-bottom: 20px;
+ }
+ .cart-img{
+    width: 150px;
+    height: 150px;
+ }
+ .cart-cont{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+ }
+ .cart-name{
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 12px;
+ }
+ .ref-num{
+     font-size: 15px;
+     color: rgb(116, 112, 112);
+     margin-bottom: 5px;
+ }
+ .collect{
+    font-size: 17px;
+    font-size: 500;
+    color: rgb(116, 112, 112);
+    margin-bottom: 8px;
+ }
+ .price-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .cart-price{
+   color: blue;
+ }
+ strong{
+   color: black;
+ }
+ .check-cont{
+   display: flex;
+   align-items: center;
+ }
+ #check{
+   font-size: 25px;
+   color: green;
+ }
+.close{
+   position: absolute;
+   top: 4px;
+   right: 5px;
+   font-size: 25px;
+   cursor: pointer;
+}
+.flex-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.empty{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 130px;
+}
+#carting{
+   font-size: 90px;
+   margin-bottom: 60px;
+}
+.empty-text{
+   font-size: 30px;
+   font-size: 500;
+   padding-bottom: 13px;
+}
+.display{
+   display: none;
+}
